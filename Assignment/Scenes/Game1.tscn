@@ -1,0 +1,125 @@
+[gd_scene load_steps=3 format=3 uid="uid://b2w0a6ystb3kg"]
+
+[ext_resource type="Script" path="res://Scripts/Game1.gd" id="1_2xohe"]
+[ext_resource type="Texture2D" uid="uid://d1k0bxqkkxduh" path="res://Assets/Game1.webp" id="2_kfcw7"]
+
+[node name="Game1" type="Control"]
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 0.995
+offset_left = -2.0
+offset_right = -2.0
+offset_bottom = 0.239929
+script = ExtResource("1_2xohe")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.008
+anchor_bottom = 1.0
+offset_right = -0.216064
+offset_bottom = -1.0
+texture = ExtResource("2_kfcw7")
+expand_mode = 1
+
+[node name="Image" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.361
+anchor_top = 0.27
+anchor_right = 0.649
+anchor_bottom = 0.726
+offset_left = 0.12796
+offset_top = -0.149994
+offset_right = 0.351929
+offset_bottom = -0.269958
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.12
+anchor_top = 0.69
+anchor_right = 0.275
+anchor_bottom = 0.823
+offset_left = 1658.76
+offset_top = -286.05
+offset_right = 1659.2
+offset_bottom = -285.835
+text = "T"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.431
+anchor_top = 0.696
+anchor_right = 0.586
+anchor_bottom = 0.829
+offset_left = 1022.49
+offset_top = 112.08
+offset_right = 1022.93
+offset_bottom = 112.295
+text = "A"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.692
+anchor_top = 0.702
+anchor_right = 0.847
+anchor_bottom = 0.836
+offset_left = 707.816
+offset_top = -69.79
+offset_right = 708.256
+offset_bottom = -70.22
+text = "C"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label4" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.692
+anchor_top = 0.702
+anchor_right = 0.847
+anchor_bottom = 0.836
+offset_left = 1430.82
+offset_top = -279.79
+offset_right = 1431.26
+offset_bottom = -276.22
+text = "G"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label5" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.692
+anchor_top = 0.702
+anchor_right = 0.847
+anchor_bottom = 0.836
+offset_left = 1131.82
+offset_top = -137.79
+offset_right = 1132.26
+offset_bottom = -138.22
+text = "O"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Label6" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.692
+anchor_top = 0.702
+anchor_right = 0.847
+anchor_bottom = 0.836
+offset_left = 1262.82
+offset_top = 93.21
+offset_right = 1263.26
+offset_bottom = 92.78
+text = "D"
+horizontal_alignment = 1
+vertical_alignment = 1
