@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://dwsrbc1531ywm"]
+[gd_scene load_steps=3 format=3 uid="uid://dwsrbc1531ywm"]
 
 [ext_resource type="Script" path="res://Scripts/Game3.gd" id="1_a8q2w"]
+[ext_resource type="Texture2D" uid="uid://ch13opqkknw6m" path="res://Assets/Game3.webp" id="2_rs5of"]
 
 [node name="Game3" type="Control"]
 layout_mode = 3
@@ -11,6 +12,16 @@ offset_top = 1.0
 offset_right = -5.21606
 offset_bottom = -0.888
 script = ExtResource("1_a8q2w")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 0.997
+anchor_bottom = 0.992
+offset_right = 0.461914
+offset_bottom = 0.199951
+texture = ExtResource("2_rs5of")
+expand_mode = 1
 
 [node name="Button" type="Button" parent="."]
 layout_mode = 1

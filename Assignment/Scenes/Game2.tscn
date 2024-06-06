@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://v6gxke7bwr3k"]
+[gd_scene load_steps=6 format=3 uid="uid://v6gxke7bwr3k"]
 
 [ext_resource type="Script" path="res://Scripts/Game2.gd" id="1_dbi4h"]
+[ext_resource type="Texture2D" uid="uid://baqaix2es2qfn" path="res://Assets/Game2.webp" id="2_7lwkj"]
+[ext_resource type="Texture2D" uid="uid://dt5xy03e8af5s" path="res://Assets/Dog.webp" id="3_ff0ek"]
+[ext_resource type="Texture2D" uid="uid://utuwwmy0ymy1" path="res://Assets/Cat.webp" id="4_5wst5"]
+[ext_resource type="Texture2D" uid="uid://e4581hexv5fb" path="res://Assets/Mouse.webp" id="5_gvq64"]
 
 [node name="Game2" type="Control"]
 layout_mode = 3
@@ -10,15 +14,28 @@ offset_right = 3.0
 offset_bottom = -0.0560303
 script = ExtResource("1_dbi4h")
 
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.994
+offset_right = 1.0
+offset_bottom = 18.876
+texture = ExtResource("2_7lwkj")
+expand_mode = 1
+
 [node name="Image1" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.005
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 0.224999
-offset_right = 2.0
-offset_bottom = -5.99994
+offset_left = 89.225
+offset_top = 103.0
+offset_right = -831.0
+offset_bottom = -314.0
+texture = ExtResource("3_ff0ek")
+expand_mode = 1
 
 [node name="Image2" type="TextureRect" parent="."]
 layout_mode = 1
@@ -26,10 +43,12 @@ anchors_preset = -1
 anchor_left = 0.009
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = -0.395
-offset_top = -8.0
-offset_right = 4.0
-offset_bottom = -0.999939
+offset_left = 469.605
+offset_top = 95.0
+offset_right = -442.0
+offset_bottom = -300.0
+texture = ExtResource("4_5wst5")
+expand_mode = 1
 
 [node name="Image3" type="TextureRect" parent="."]
 layout_mode = 1
@@ -37,43 +56,28 @@ anchors_preset = -1
 anchor_top = -0.003
 anchor_right = 1.001
 anchor_bottom = 1.005
-offset_left = -6.0
-offset_top = -4.062
-offset_right = -4.15503
-offset_bottom = -4.22992
+offset_left = 831.0
+offset_top = 87.938
+offset_right = -79.155
+offset_bottom = -303.23
+texture = ExtResource("5_gvq64")
+expand_mode = 1
 
 [node name="Label" type="Label" parent="."]
+modulate = Color(0, 0, 0, 1)
+self_modulate = Color(0, 0, 0, 1)
 layout_mode = 1
 anchors_preset = -1
-anchor_left = 0.133
-anchor_top = 0.726
-anchor_right = 0.168
-anchor_bottom = 0.762
-offset_left = 0.384995
-offset_top = 0.0039978
-offset_right = -0.0400085
-offset_bottom = -0.252014
-
-[node name="Label2" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.859
-anchor_top = 0.728
-anchor_right = 0.894
-anchor_bottom = 0.763
-offset_left = -0.14502
-offset_top = -0.288025
-offset_right = -0.570068
-offset_bottom = 0.10199
-
-[node name="Label3" type="Label" parent="."]
-layout_mode = 1
-anchors_preset = -1
-anchor_left = 0.498
-anchor_top = 0.717
-anchor_right = 0.532
-anchor_bottom = 0.752
-offset_left = -0.190002
-offset_top = -0.182007
-offset_right = 0.539978
-offset_bottom = 0.207977
+anchor_left = 0.257
+anchor_top = 0.693
+anchor_right = 0.825
+anchor_bottom = 0.878
+offset_left = 0.165009
+offset_top = 0.322021
+offset_right = 0.124939
+offset_bottom = -0.187988
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(1, 1, 1, 1)
+horizontal_alignment = 1
+vertical_alignment = 1
