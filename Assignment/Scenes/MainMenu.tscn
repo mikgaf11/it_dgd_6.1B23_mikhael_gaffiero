@@ -78,3 +78,7 @@ offset_bottom = 141.174
 text = "Learning Game"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[connection signal="pressed" from="StartGame1Button" to="." method="_on_start_game_1_button_pressed"]
+[connection signal="pressed" from="StartGame2Button" to="." method="_on_start_game_2_button_pressed"]
+[connection signal="pressed" from="StartGame3Button" to="." method="_on_start_game_3_button_pressed"]

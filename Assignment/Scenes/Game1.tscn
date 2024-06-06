@@ -123,3 +123,17 @@ offset_bottom = 92.78
 text = "D"
 horizontal_alignment = 1
 vertical_alignment = 1
+
+[node name="Grayed" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.378
+anchor_top = 0.781
+anchor_right = 0.63
+anchor_bottom = 0.909
+offset_left = 0.543976
+offset_top = 0.255035
+offset_right = 0.239929
+offset_bottom = -0.304993
+horizontal_alignment = 1
+vertical_alignment = 1

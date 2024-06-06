@@ -1,0 +1,79 @@
+[gd_scene load_steps=2 format=3 uid="uid://v6gxke7bwr3k"]
+
+[ext_resource type="Script" path="res://Scripts/Game2.gd" id="1_dbi4h"]
+
+[node name="Game2" type="Control"]
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 0.997
+offset_right = 3.0
+offset_bottom = -0.0560303
+script = ExtResource("1_dbi4h")
+
+[node name="Image1" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.005
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 0.224999
+offset_right = 2.0
+offset_bottom = -5.99994
+
+[node name="Image2" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.009
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -0.395
+offset_top = -8.0
+offset_right = 4.0
+offset_bottom = -0.999939
+
+[node name="Image3" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_top = -0.003
+anchor_right = 1.001
+anchor_bottom = 1.005
+offset_left = -6.0
+offset_top = -4.062
+offset_right = -4.15503
+offset_bottom = -4.22992
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.133
+anchor_top = 0.726
+anchor_right = 0.168
+anchor_bottom = 0.762
+offset_left = 0.384995
+offset_top = 0.0039978
+offset_right = -0.0400085
+offset_bottom = -0.252014
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.859
+anchor_top = 0.728
+anchor_right = 0.894
+anchor_bottom = 0.763
+offset_left = -0.14502
+offset_top = -0.288025
+offset_right = -0.570068
+offset_bottom = 0.10199
+
+[node name="Label3" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.498
+anchor_top = 0.717
+anchor_right = 0.532
+anchor_bottom = 0.752
+offset_left = -0.190002
+offset_top = -0.182007
+offset_right = 0.539978
+offset_bottom = 0.207977
