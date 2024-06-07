@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://cirhasklq46s1"]
+
+[ext_resource type="Script" path="res://Scripts/Tile.gd" id="1_0o3us"]
+[ext_resource type="Texture2D" uid="uid://ss864dcwok0v" path="res://Assets/Fish.png" id="2_l1fuw"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_8wgbf"]
+size = Vector2(54, 46)
+
+[node name="Tile" type="Area2D"]
+script = ExtResource("1_0o3us")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(143, 91)
+shape = SubResource("RectangleShape2D_8wgbf")
+
+[node name="FishSprite" type="Sprite2D" parent="."]
+position = Vector2(140, 92)
+scale = Vector2(0.0181564, 0.0223794)
+texture = ExtResource("2_l1fuw")
+
+[node name="FishLabel" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
