@@ -1,4 +1,3 @@
-
 extends Control
 
 var images = ["res://Assets/Dog.png", "res://Assets/Cat.png", "res://Assets/Mouse.png"]
@@ -28,11 +27,10 @@ func _display_letters():
 func _on_letter_dragged(letter_node, position):
 	if _is_correct_position(letter_node, position):
 		letter_node.rect_position = position
-		letter_node.modulate = Color(0, 1, 0) # Correct position
+		letter_node.modulate = Color(0, 1, 0)
 	else:
 		letter_node.rect_position = letter_node.start_position
-		letter_node.modulate = Color(1, 0, 0) # Incorrect position
+		letter_node.modulate = Color(1, 0, 0) 
 
 func _is_correct_position(letter_node, position):
-	# Implement logic to check if the position is correct
 	return true

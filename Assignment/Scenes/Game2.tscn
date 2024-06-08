@@ -2,9 +2,15 @@
 
 [ext_resource type="Script" path="res://Scripts/Game2.gd" id="1_dbi4h"]
 [ext_resource type="Texture2D" uid="uid://baqaix2es2qfn" path="res://Assets/Game2.webp" id="2_7lwkj"]
-[ext_resource type="Texture2D" uid="uid://dt5xy03e8af5s" path="res://Assets/Dog.webp" id="3_ff0ek"]
-[ext_resource type="Texture2D" uid="uid://utuwwmy0ymy1" path="res://Assets/Cat.webp" id="4_5wst5"]
-[ext_resource type="Texture2D" uid="uid://e4581hexv5fb" path="res://Assets/Mouse.webp" id="5_gvq64"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_mqgir"]
+load_path = "res://.godot/imported/Dog.webp-e210c59a900f141dc756f919fc4e3efe.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_7lb1a"]
+load_path = "res://.godot/imported/Cat.webp-81c6439c88b79b2173e8fdeb91bfb599.ctex"
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_efi0g"]
+load_path = "res://.godot/imported/Mouse.webp-554c8cf10173cc8d739387e42935b255.ctex"
 
 [node name="Game2" type="Control"]
 layout_mode = 3
@@ -34,7 +40,7 @@ offset_left = 89.225
 offset_top = 103.0
 offset_right = -831.0
 offset_bottom = -314.0
-texture = ExtResource("3_ff0ek")
+texture = SubResource("CompressedTexture2D_mqgir")
 expand_mode = 1
 
 [node name="Image2" type="TextureRect" parent="."]
@@ -47,7 +53,7 @@ offset_left = 469.605
 offset_top = 95.0
 offset_right = -442.0
 offset_bottom = -300.0
-texture = ExtResource("4_5wst5")
+texture = SubResource("CompressedTexture2D_7lb1a")
 expand_mode = 1
 
 [node name="Image3" type="TextureRect" parent="."]
@@ -60,7 +66,7 @@ offset_left = 831.0
 offset_top = 87.938
 offset_right = -79.155
 offset_bottom = -303.23
-texture = ExtResource("5_gvq64")
+texture = SubResource("CompressedTexture2D_efi0g")
 expand_mode = 1
 
 [node name="Label" type="Label" parent="."]

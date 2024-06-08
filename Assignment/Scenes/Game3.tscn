@@ -36,4 +36,19 @@ offset_right = -19003.6
 offset_bottom = -7953.75
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
-position = Vector2(1, 6)
+position = Vector2(14, 0)
+
+[node name="GridContainer" type="GridContainer" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_right = 1.0
+anchor_bottom = 0.997
+offset_right = 3.0
+offset_bottom = -0.0500488
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
